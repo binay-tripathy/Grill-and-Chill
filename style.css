@@ -1,0 +1,39 @@
+h3,h5 {
+    font-family: 'Fredericka the Great';
+    font-weight: 1400;
+}
+h3{
+    padding-bottom: 1rem;
+}
+#logo {
+    width: 170px;
+    height: 60px;
+}
+.searchlogo{
+    width: 30px;
+    height: 30px;
+}
+.row{
+    padding-top: 4em;
+}
+.description{
+    padding-top: 2em;
+}
+
+#footer{
+    color: whitesmoke;
+    margin-top: 2rem;
+    
+}
+footer-social{
+    font-size: larger;
+    padding: 2px;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+#rights a{
+    /* text-decoration: none !important; */
+    color: inherit;
+}

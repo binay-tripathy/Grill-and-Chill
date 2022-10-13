@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>Grill & Chill</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Navbar Code -->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">Offcanvas dark navbar</a> -->
+            <img id="logo" src="Home Page Pics/G&C.png" alt="logo">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Grill & Chill</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Breakfast</a>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Rice Bowl</a>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Salad</a>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Chicken</a>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Burger</a>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Cake</a>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Juice</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search for Food Items"
+                                aria-label="Search">
+                            <button class="btn btn-success" type="submit"><img class="searchlogo"
+                                    src="Home Page Pics/search.png" alt="Search"></button>
+                        </form>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Carousel Code -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Home Page Pics/Carousel Pics/Pic1.png" class="d-block w-100 " alt="First Page">
+            </div>
+            <div class="carousel-item">
+                <img src="Home Page Pics/Carousel Pics/Pic2.jpg" class="d-block w-100" alt="Second Page">
+            </div>
+            <div class="carousel-item">
+                <img src="Home Page Pics/Carousel Pics/Pic3.jpg" class="d-block w-100" alt="Third Page">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- Home Page Menu Content -->
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Food</h3>
+                <div id="food">
+                    <img src="Home Page Pics/Menu List Pics/food.png" alt="Food Menu" class="rounded-circle lazyload">
+                    <p class="description">
+                        <em> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                            dolor neque, condimentum quis ante ac, imperdiet varius sapien.
+                            Maecenas commodo ante et odio varius, at placerat mi tristique. </em>
+                    </p>
+                    <a class="btn btn-outline-dark" href="pages/food.html" role="button">VIEW MENU</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h3>Desserts</h3>
+                <div id="desserts">
+                    <img src="Home Page Pics/Menu List Pics/desserts.png" alt="Desserts Menu"
+                        class="rounded-circle lazyload">
+                    <p class="description">
+                        <em> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                            dolor neque, condimentum quis ante ac, imperdiet varius sapien.
+                            Maecenas commodo ante et odio varius, at placerat mi tristique. </em>
+                    </p>
+                    <a class="btn btn-outline-dark" href="pages/desserts.html" role="button">VIEW MENU</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h3>Drinks</h3>
+                <div id="drinks">
+                    <img src="Home Page Pics/Menu List Pics/drinks.png" alt="Drinks Menu"
+                        class="rounded-circle lazyload">
+                    <p class="description">
+                        <em> ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                            dolor neque, condimentum quis ante ac, imperdiet varius sapien.
+                            Maecenas commodo ante et odio varius, at placerat mi tristique. </em>
+                    </p>
+                    <a class="btn btn-outline-dark" href="pages/drinks.html" role="button">VIEW MENU</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Home Page Footer -->
+
+    <footer class="footer bg-dark pb-5" id="footer">
+        <div class="container">
+            <a class="navbar d-block text-center mt-0 pt-4 pb-0" href="#"><img src="Home Page Pics/G&C.png" width="150"
+                    height="60" alt="Logo"></a>
+            <div class="row">
+                <div class="col-3">
+                    <h5 class="page-footer-title">Opening hours</h5>
+                    <p class="mb-0"><small>Sunday is a holiday</small></p>
+                    <p class="mb-0"><small>Opens everyday at 8am</small></p>
+                    <p class="mb-0"><small>Breakfast : 8am - 11am</small></p>
+                    <p class="mb-0"><small>Lunch : 12pm - 3pm</small></p>
+                    <p class="mb-0"><small>Dinner : 7pm - 12am</small></p>
+                </div>
+
+                <div class="col-md-3 h-100" id="location">
+                    <h5 class="page-footer-title mt-3 mt-md-0">Location</h5>
+                    <p class="mb-0"><small>Grill &amp; Chill</small></p>
+                    <p class="mb-0"><small>Route 69</small></p>
+                    <p class="mb-0"><small>Pennsylvania, USA</small></p>
+                    <p class="mb-0"><small>Phone : (123) 456-7890</small></p>
+                    <p class="mb-0"><small>Email-Id : info@gandc.com</small></p>
+                </div>
+
+                <div class="col-md-3 h-100 border-left-white">
+                    <h5 class="page-footer-title mt-3 mt-md-0">Follow Us</h5>
+                    <div class="mb-4">
+                        <a class="footer-social" href="https://www.facebook.com" aria-label="facebook"><i
+                                class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a class="footer-social" href="https://www.instagram.com/binay__tripathy/"
+                            aria-label="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a class="footer-social" href="https://twitter.com/tripathy_binay" aria-label="twitter"><i
+                                class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a class="footer-social" href="https://www.snapchat.com/add/binay_tripathy"
+                            aria-label="snapchat"><i class="fa fa-snapchat" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 h-100 border-left-custom">
+                    <h5 class="page-footer-title mt-3 mt-md-0">NewsLetter</h5>
+                    <p>
+                        <small> Complete the form to receive information on the latest events,
+                            news and special offers at Grill & Chill.</small>
+                    </p>
+                    <form id="newsletter-form">
+                        <label class="sr-only" for="formEmail">Email</label>
+                        <input type="email" class="form-control form-control-sm rounded" id="formEmail"
+                            placeholder="name@example.com">
+                        <button type="submit" class="btn btn-sm btn-outline-light btn-block mt-2">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="footer bg-secondary">
+
+        <div class="page-footer-copyright container-fluid text-center mt-0 p-3 text-white" id="rights">
+            <small> © 2022 Grill &amp; Chill. All rights reserved.<br>
+                Design &amp; Developed by <a href="https://github.com/binay-tripathy">The Legend: Binay
+                    Tripathy</a>.<br>
+                Muchas Gracias.</small>
+        </div>
+    </footer>
+
+
+</body>
+
+</html
